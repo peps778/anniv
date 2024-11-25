@@ -1,17 +1,19 @@
 /* input.css */
+
+/* Import Tailwind's default layers */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Custom styles for the navbar */
+/* Custom styles for your navbar */
 .navbar {
-    background-color: #1D4ED8; /* Tailwind blue-600 */
-    padding: 16px;
+    background-color: #1D4ED8; /* Tailwind's blue-600 */
+    padding: 1rem;
 }
 
 .nav-link {
     color: white;
-    padding: 8px 16px;
+    padding: 0.5rem 1rem;
     text-decoration: none;
     font-size: 1.125rem; /* 18px */
     font-weight: 600;
@@ -19,6 +21,6 @@
 }
 
 .nav-link:hover {
-    background-color: #2563EB; /* Tailwind blue-500 */
+    background-color: #2563EB; /* Tailwind's blue-500 */
     border-radius: 4px;
 }

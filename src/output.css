@@ -1,5 +1,7 @@
 /* input.css */
 
+/* Import Tailwind's default layers */
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -749,50 +751,17 @@ select {
   outline: 1px auto -webkit-focus-ring-color;
 }
 
-.flex {
-  display: flex;
-}
-
-.space-x-6 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.bg-blue-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity, 1));
-}
-
-.p-6 {
-  padding: 1.5rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.font-semibold {
-  font-weight: 600;
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-/* Custom styles for the navbar */
+/* Custom styles for your navbar */
 
 .navbar {
   background-color: #1D4ED8;
-  /* Tailwind blue-600 */
-  padding: 16px;
+  /* Tailwind's blue-600 */
+  padding: 1rem;
 }
 
 .nav-link {
   color: white;
-  padding: 8px 16px;
+  padding: 0.5rem 1rem;
   text-decoration: none;
   font-size: 1.125rem;
   /* 18px */
@@ -802,6 +771,6 @@ select {
 
 .nav-link:hover {
   background-color: #2563EB;
-  /* Tailwind blue-500 */
+  /* Tailwind's blue-500 */
   border-radius: 4px;
 }
