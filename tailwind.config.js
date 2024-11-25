@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     './index.html',  // Path to your HTML files
-    './src/**/*.{html,js}',  // If you're using JS files in a src folder
+    './dist/*.{html,js}',  // If you're using JS files in a src folder
   ],
   theme: {
     extend: {
